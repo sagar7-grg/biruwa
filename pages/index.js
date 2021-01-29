@@ -1,10 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head";
 
+import Hero from "../components/Hero";
+import About from "../components/About";
 
 export default function Home() {
   return (
-    <div className="bg-red-300">
-      Hello from other world
+    <div>
+      <Hero />
+      <About />
     </div>
-  )
+  );
 }

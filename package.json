@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build-css":"tailwindcss build styles/globals.css -o public/styles.css"
   },
   "dependencies": {
     "autoprefixer": "^10.2.3",
