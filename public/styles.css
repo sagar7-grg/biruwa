@@ -31369,6 +31369,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+.rec .rec-arrow {
+  display: none !important;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
