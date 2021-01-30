@@ -4,3 +4,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.rec .rec-arrow {
+  display: none !important;
+}
+.rec-dot {
+  width: 10px !important;
+  height: 12px !important;
+  box-shadow: none;
+  background-color: whitesmoke !important;
+}
+.rec-dot_active {
+  background-color: #219653 !important;
+  border: none !important;
+  box-shadow: none !important;
+}

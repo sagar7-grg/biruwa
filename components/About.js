@@ -11,12 +11,12 @@ export default function About() {
 
       <div className=" max-w-4xl container mx-auto flex justify-center flex-col">
         <Image
-          src="/images/chopsticks.svg"
+          src="/images/restaurant.svg"
           alt="chopsticks"
-          width={50}
-          height={50}
+          width={30}
+          height={30}
         />
-        <div className="flex justify-center items-center flex-col mb-8">
+        <div className="flex justify-center items-center flex-col mb-8 space-y-4">
           <h1 className="text-center text-5xl font-amatic font-black">
             <span className="text-primary">Welcome to</span> our cottage
           </h1>

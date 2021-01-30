@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "build-css":"tailwindcss build styles/globals.css -o public/styles.css"
+    "build-css": "tailwindcss build styles/globals.css -o public/styles.css"
   },
   "dependencies": {
     "autoprefixer": "^10.2.3",
@@ -14,6 +14,8 @@
     "postcss": "^8.2.4",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-elastic-carousel": "^0.11.1",
+    "react-slick": "^0.28.0",
     "tailwindcss": "^2.0.2"
   }
 }
