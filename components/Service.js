@@ -24,7 +24,10 @@ export default function Service() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           {[1, 2, 3, 4].map((item) => (
-            <div className="bg-white cursor-pointer shadow-2xl  border-2 rounded-lg border-gray-100 card relative px-16 py-40">
+            <div
+              className="bg-white cursor-pointer shadow-2xl  border-2 rounded-lg border-gray-100 card relative px-16 py-40"
+              key={item}
+            >
               <div className=" child1 flex h-full w-full justify-center items-center flex-col space-y-4 absolute top-0 left-0 z-20 ">
                 <Image
                   src="/images/cake-box.svg"
