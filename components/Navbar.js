@@ -7,13 +7,27 @@ export default function Navbar() {
       <div className="text-4xl font-medium text-gray-100">LOGO</div>
       <div className="hidden lg:block">
         <ul className="text-xl text-gray-100 flex space-x-5 justify-center items-center ">
-          <li className="hover:text-primary cursor-pointer">Home</li>
-          <li className="hover:text-primary cursor-pointer ">About</li>
-          <li className="hover:text-primary cursor-pointer">Menu</li>
-          <li className="hover:text-primary cursor-pointer">Services</li>
-          <li className="hover:text-primary cursor-pointer">Team</li>
-          <li className="hover:text-primary cursor-pointer">Gallery</li>
-          <li className="hover:text-primary cursor-pointer">Contact Us</li>
+          <li className="hover:text-primary cursor-pointer" key={1}>
+            Home
+          </li>
+          <li className="hover:text-primary cursor-pointer " key={2}>
+            About
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={3}>
+            Menu
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={4}>
+            Services
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={5}>
+            Team
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={6}>
+            Gallery
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={7}>
+            Contact Us
+          </li>
         </ul>
       </div>
       <button
@@ -60,13 +74,27 @@ export default function Navbar() {
           </svg>
         </div>
         <ul className="text-xl text-gray-800 pt-16 flex space-y-5 justify-center items-center flex-col">
-          <li className="hover:text-primary cursor-pointer">Home</li>
-          <li className="hover:text-primary cursor-pointer ">About</li>
-          <li className="hover:text-primary cursor-pointer">Menu</li>
-          <li className="hover:text-primary cursor-pointer">Services</li>
-          <li className="hover:text-primary cursor-pointer">Team</li>
-          <li className="hover:text-primary cursor-pointer">Gallery</li>
-          <li className="hover:text-primary cursor-pointer">Contact Us</li>
+          <li className="hover:text-primary cursor-pointer" key={1}>
+            Home
+          </li>
+          <li className="hover:text-primary cursor-pointer " key={2}>
+            About
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={3}>
+            Menu
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={4}>
+            Services
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={5}>
+            Team
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={6}>
+            Gallery
+          </li>
+          <li className="hover:text-primary cursor-pointer" key={7}>
+            Contact Us
+          </li>
         </ul>
       </div>
     </div>

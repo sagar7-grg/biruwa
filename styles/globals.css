@@ -47,3 +47,20 @@
 .card:hover .logo {
   filter: invert(1);
 }
+.menu {
+  background: url("/images/menu-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.menu-icons {
+  filter: invert(1);
+}
+.menu-list:hover .menu-icons {
+  filter: invert(45%) sepia(87%) saturate(381%) hue-rotate(93deg)
+    brightness(87%) contrast(92%);
+}
+.menu-list:hover .items {
+  color: #219653;
+}

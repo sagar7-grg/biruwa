@@ -30,7 +30,10 @@ export default function Featured() {
         </div>
         <Carousel itemsToShow={4} breakPoints={breakPoints}>
           {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-            <div className="flex justify-center items-center flex-col space-y-4">
+            <div
+              className="flex justify-center items-center flex-col space-y-4"
+              key={item}
+            >
               <Image src="/images/breakfast.png" width={200} height={200} />
               <h1 className="text-3xl font-amatic font-black text-gray-100">
                 Breakfast Complete
