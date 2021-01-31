@@ -5,6 +5,7 @@ import About from "../components/About";
 import Featured from "../components/Featured";
 import Service from "../components/Service";
 import Menu from "../components/Menu";
+import Team from "../components/Team";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Featured />
       <Service />
       <Menu />
+      <Team />
     </div>
   );
 }
