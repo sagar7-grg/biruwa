@@ -18,3 +18,32 @@
   border: none !important;
   box-shadow: none !important;
 }
+
+.card-desc {
+  visibility: hidden;
+}
+.card:hover .card-desc {
+  visibility: visible;
+}
+
+.card .child1 {
+  transform: translateY(20px);
+  transition: transform 1s;
+}
+.card:hover .child1 {
+  transform: translateY(0);
+  color: white;
+}
+.card:hover {
+  background-image: url("/images/card.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card:hover .overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.card:hover .logo {
+  filter: invert(1);
+}
