@@ -1,7 +1,12 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      xs: "475px",
+      ...defaultTheme.screens,
+    },
     container: {
       padding: {
         DEFAULT: "1rem",
