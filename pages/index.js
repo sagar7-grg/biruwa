@@ -6,6 +6,7 @@ import Featured from "../components/Featured";
 import Service from "../components/Service";
 import Menu from "../components/Menu";
 import Team from "../components/Team";
+import Gallery from "../components/Gallery";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Service />
       <Menu />
       <Team />
+      <Gallery />
     </div>
   );
 }

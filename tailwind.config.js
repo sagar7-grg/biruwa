@@ -21,6 +21,9 @@ module.exports = {
         amatic: ["Amatic SC", "cursive"],
         inter: ["Inter", "sans-serif"],
       },
+      zIndex: {
+        "-10": "-10",
+      },
       colors: {
         primary: "#219653",
       },

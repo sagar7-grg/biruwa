@@ -9,13 +9,17 @@
     "build-css": "tailwindcss build styles/globals.css -o public/styles.css"
   },
   "dependencies": {
+    "antd": "^4.11.2",
     "autoprefixer": "^10.2.3",
+    "framer-motion": "^3.2.2-rc.1",
     "next": "10.0.5",
     "postcss": "^8.2.4",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-elastic-carousel": "^0.11.1",
+    "react-modal": "^3.12.1",
     "react-slick": "^0.28.0",
+    "react-transition-group": "^4.4.1",
     "tailwindcss": "^2.0.2"
   }
 }
