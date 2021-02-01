@@ -30,7 +30,7 @@ export default function Team() {
               className="absolute top-0 left-0"
             />
             <div className="bg-primary absolute w-full h-full opacity-0 top-0 left-0 group-hover:opacity-90 flex justify-center items-center flex-col text-gray-50 profile-overlay">
-              <h1 className="text-5xl font-black font-amatic">
+              <h1 className="text-4xl font-black font-amatic">
                 Prabesh Shrestha
               </h1>
               <p className="font-inter">Marketing manager</p>

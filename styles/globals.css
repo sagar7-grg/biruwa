@@ -4,6 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .rec .rec-arrow {
   display: none !important;
 }
@@ -70,4 +75,26 @@
 .profile-overlay > * {
   transform: translateY(40px);
   transition: transform 2s;
+}
+.gallery {
+  background: url("/images/header.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.item-enter {
+  transform: scale(0);
+}
+.item-enter-active {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+.item-exit {
+  transform: scale(1);
+}
+.item-exit-active {
+  transform: scale(0);
+  transition: transform 0.5s ease;
 }
