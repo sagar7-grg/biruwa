@@ -7,6 +7,8 @@ import Service from "../components/Service";
 import Menu from "../components/Menu";
 import Team from "../components/Team";
 import Gallery from "../components/Gallery";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Menu />
       <Team />
       <Gallery />
+      <Contact />
+      <Footer />
     </div>
   );
 }
