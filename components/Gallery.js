@@ -100,8 +100,8 @@ export default function Gallery() {
               bottom: "0",
               right: "0",
               margin: "auto",
-              width: "700px",
-              height: "500px",
+              width: "500px",
+              height: "350px",
               border: "none",
             },
           }}
