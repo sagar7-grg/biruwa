@@ -31,14 +31,14 @@ export default function Footer() {
           remaining essentially unchanged.
         </p>
       </div>
-      <div className="container mx-auto flex justify-around items-start">
-        <div className="flex flex-col justify-center items-start">
+      <div className="container mx-auto flex justify-center  items-center flex-col space-y-10 sm:flex-row sm:justify-around ">
+        <div className="flex flex-col justify-center items-center">
           <h1 className="font-amatic font-bold text-4xl text-gray-100 mb-3">
             Social links
           </h1>
           <Image src="/images/facebook.svg" width={30} height={30} />
         </div>
-        <div className="flex flex-col justify-center items-start">
+        <div className="flex flex-col justify-center items-center">
           <h1 className="font-amatic font-bold text-4xl text-gray-100 mb-3">
             open time
           </h1>
@@ -47,7 +47,7 @@ export default function Footer() {
           <p className="text-gray-100 ">Monday 8am-2am</p>
           <p className="text-gray-100 ">Monday 8am-2am</p>
         </div>
-        <div className="flex flex-col justify-center items-start">
+        <div className="flex flex-col justify-center items-center">
           <h1 className="font-amatic font-bold text-4xl text-gray-100 mb-3">
             contact
           </h1>
