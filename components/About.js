@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function About() {
   return (
-    <div className="h-auto pt-20 pb-20 relative bg-gray-50">
+    <div id="about" className="h-auto pt-20 pb-20 relative bg-gray-50">
       <div className="absolute right-0 top-0 hidden lg:block">
         <Image src="/images/about2.jpg" alt="about" width={150} height={150} />
       </div>

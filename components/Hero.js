@@ -1,8 +1,12 @@
 import Navbar from "./Navbar";
 import Image from "next/image";
+
 export default function Hero() {
   return (
-    <div className="bg-header-image bg-auto h-screen lg:h-screen w-full relative flex justify-center items-center">
+    <div
+      id="home"
+      className="bg-header-image bg-auto h-screen lg:h-screen w-full relative flex justify-center items-center"
+    >
       <Navbar />
       <div className="container  mx-auto  flex justify-between items-center text-gray-100 flex-col lg:flex-row ">
         <div className="w-full lg:w-5/12 text-center lg:text-left">

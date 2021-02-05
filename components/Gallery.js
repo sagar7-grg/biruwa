@@ -25,7 +25,7 @@ export default function Gallery() {
     setShowModal(false);
   };
   return (
-    <div className="gallery pt-24 pb-24">
+    <div id="gallery" className="gallery pt-24 pb-24">
       <div className="container mx-auto flex justify-center items-center flex-col space-y-10">
         <div className="flex justify-center flex-col">
           <Image

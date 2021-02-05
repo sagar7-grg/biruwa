@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Team() {
   return (
-    <div className="bg-gray-50 pt-24 pb-24">
+    <div id="team" className="bg-gray-50 pt-24 pb-24">
       <div className=" container mx-auto flex justify-center flex-col">
         <Image
           src="/images/restaurant.svg"

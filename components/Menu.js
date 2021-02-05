@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Menu() {
   return (
-    <div className="menu pt-24 pb-24">
+    <div id="menu" className="menu pt-24 pb-24">
       <div className=" container mx-auto">
         <div className="flex justify-center flex-col">
           <Image

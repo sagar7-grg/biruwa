@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Contact() {
   return (
-    <div className="bg-gray-50">
+    <div id="contact" className="bg-gray-50">
       <div className="container mx-auto py-24 space-y-8">
         <div className=" flex justify-center flex-col">
           <Image
