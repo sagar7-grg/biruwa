@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function About() {
   return (
     <div id="about" className="h-auto pt-20 pb-20 relative bg-gray-50">
@@ -39,7 +40,7 @@ export default function About() {
           menu
         </h1>
         <Image src="/images/arrow.png" alt="arrow" width={153} height={32} />
-        <div className="h-48 w-48 border-black bg-yellow-700">Our Menu</div>
+        <div className="h-48 w-48 bg-primary">Open Menu</div>
       </div>
     </div>
   );
