@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Image from "next/image";
+import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
@@ -22,7 +23,9 @@ export default function Hero() {
             remaining essentially unchanged.
           </p>
           <button className="bg-primary text-lg font-md mt-4 rounded-full px-4 shadow-2xl border-primary py-2 text-gray-100 hover:opacity-80">
-            Contact Us
+            <Link to="contact" spy={true} smooth={true}>
+              Contact Us
+            </Link>
           </button>
         </div>
 
