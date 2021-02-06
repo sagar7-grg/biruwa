@@ -1,3 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rec .rec-arrow {
+  display: none !important;
+}
+.rec-dot {
+  width: 10px !important;
+  height: 12px !important;
+  box-shadow: none;
+  background-color: whitesmoke !important;
+}
+.rec-dot_active {
+  background-color: #219653 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.card-desc {
+  visibility: hidden;
+}
+.card:hover .card-desc {
+  visibility: visible;
+}
+
+.card .child1 {
+  transform: translateY(20px);
+  transition: transform 1s;
+}
+.card:hover .child1 {
+  transform: translateY(0);
+  color: white;
+}
+.card:hover {
+  background-image: url("/images/card.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card:hover .overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.card:hover .logo {
+  filter: invert(1);
+}
+.menu {
+  background: url("/images/menu-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.menu-icons {
+  filter: invert(1);
+}
+.menu-list:hover .menu-icons {
+  filter: invert(45%) sepia(87%) saturate(381%) hue-rotate(93deg)
+    brightness(87%) contrast(92%);
+}
+.menu-list:hover .items {
+  color: #219653;
+}
+.profile-card:hover .profile-overlay > * {
+  transform: translateY(0);
+}
+.profile-overlay > * {
+  transform: translateY(40px);
+  transition: transform 2s;
+}
+.gallery {
+  background: url("/images/header.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.item-enter {
+  transform: scale(0);
+}
+.item-enter-active {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+.item-exit {
+  transform: scale(1);
+}
+.item-exit-active {
+  transform: scale(0);
+  transition: transform 0.5s ease;
+}
+
+.nav-wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  transition: all 2s ease;
+}
+.nav-active {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 50;
+  transition: all 2s ease;
+}
+.active {
+  color: #219653;
+}
